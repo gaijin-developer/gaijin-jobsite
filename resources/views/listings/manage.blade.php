@@ -5,7 +5,7 @@
             <h1
                 class="text-3xl text-center font-bold my-6 uppercase"
             >
-                Manage Gigs
+                Manage Jobs Posted
             </h1>
         </header>
 

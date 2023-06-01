@@ -3,9 +3,9 @@
                 >
                     <header class="text-center">
                         <h2 class="text-2xl font-bold uppercase mb-1">
-                            Create a Gig
+                           Post a Job 
                         </h2>
-                        <p class="mb-4">Post a gig to find a developer</p>
+                        <p class="mb-4">Post a Vacancy</p>
                     </header>
 
                     <form action="/listings" method="POST" enctype="multipart/form-data">
@@ -181,7 +181,7 @@
                             <button
                                 class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-black"
                             >
-                                Create Gig
+                                Post Job
                             </button>
 
                             <a href="/" class="text-black ml-4"> Back </a>

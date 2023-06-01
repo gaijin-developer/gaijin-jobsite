@@ -11,15 +11,24 @@ class="relative h-72 bg-blue-500 flex flex-col justify-center align-center text-
     <h1 class="text-6xl font-bold uppercase text-white">
         Jobu<span class="text-black">lando</span>
     </h1>
+    @auth
     <p class="text-2xl text-gray-200 font-bold my-4">
-        Find or post Jobs & Projects
+        Find Qualified Engineers
     </p>
+    @endauth
+    @guest
+    <p class="text-2xl text-gray-200 font-bold my-4">
+        Find or Post Jobs
+    </p>
+    
     <div>
         <a
             href="/register"
             class="inline-block border-2 border-white text-white py-2 px-4 rounded-xl uppercase mt-2 hover:text-black hover:border-black"
-            >Sign Up to List a Gig</a
+            >Sign Up to List a Job</a
         >
     </div>
+    @endguest
 </div>
+
 </section>
